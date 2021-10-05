@@ -1,0 +1,114 @@
+/*Color del fondo de la página*/
+body {
+    background-color: #17181b;
+    margin: 0;
+}
+/*Edicion de los h1 que representan los titulos*/
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+/*Edición de los titulos de las hamburguesas*/
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+/*Edicion del encabezado*/
+header {
+    padding: 20px 0 0 0;
+    background: #1d2124;
+    text-align: center;
+}
+
+@media (min-width : 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+/*Imagen que aparece en la pantalla principal*/
+.hero {
+    background-image: url(../img/hero.jpg);
+    height: 551px;
+}
+/*Color y margen del encabezado*/
+.encabezado {
+    margin: 30px 0;
+    color: white;
+}
+/*Posición del submenu*/
+.submenu {
+    position: relative;
+}
+
+/*Color y posición del subtitulo*/
+.contenido-hero {
+    margin-top: 80px;
+    color: white;
+}
+/*Modificación de la barra donde se encuentran los datos*/
+.barra {
+    padding: 20px 0;
+    background: #fbaf32;
+    background: -webkit-linear-gradient(left, #b95a00 0%,#ad5400 100% );
+}
+.barra p {
+    margin: 0;
+    color: white;
+}
+
+/*Iconos de la barra*/
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.icono1 {
+    background-image: url(../img/icono1.png);
+}
+.icono2 {
+    background-image: url(../img/icono2.png);
+}
+.icono3 {
+    background-image: url(../img/icono3.png);
+}
+/*Recuadro donde se encuentran las hamburguesas junto con la descripcion*/
+.card {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #1d2124;
+}
+@media (min-width:550px){
+    .card {
+        text-align: left;
+    }
+}
+.info-card {
+    padding: 10px 20px;
+    color: white;
+}
+.info-card p,
+
+.info-card .precio {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+
+
+
